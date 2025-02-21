@@ -23,6 +23,9 @@ This repository includes three separate programs:
 
 **Note:** Make sure to replace "shellcode-hosting.com" and "/shellcode.txt" with your actual HTTP server and resource path.
 
+## **Screenshot**
+![Execution Example](images/Screenshot.png)
+
 ## **Limitations**  
 - The use of ETW sessions for event transmission requires administrative permissions. This is a known limitation and reduces the practicality of this technique.  
 - This project was created as a **proof-of-concept** to explore unconventional shellcode storing & execution methods.  
