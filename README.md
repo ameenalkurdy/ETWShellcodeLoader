@@ -13,7 +13,7 @@ This repository includes three separate programs:
 
 ### **Option 1: Split Execution**
 1. Open ETWShellcodeLoader.sln in Visual Studio and build the projects.
-2. Run Receiver.exe as  to start listening.
+2. Run Receiver.exe (as a local administrator) to start listening.
 3. Run Sender.exe to send the shellcode event.
 4. The receiver will then extract and execute the shellcode.
 
