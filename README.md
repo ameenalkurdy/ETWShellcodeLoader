@@ -3,7 +3,9 @@
 **ETWShellcodeLoader** is a proof-of-concept shellcode loader that leverages **Event Tracing for Windows (ETW)** to deliver and execute payloads. This method uses ETW events as a transport mechanism to deliver shellcode dynamically. By embedding the payload inside an ETW event.  
 
 This approach allows the shellcode to be sent from a separate process and executed in memory without writing to disk. The project contains both a **split execution binaries** (sender/receiver) and a **single execution binary**.  At the time of creation, **ETWShellcodeLoader** successfully bypasses Windows Defender.
+
 Write-up: https://medium.com/@ameenalkurdy/using-etw-as-a-shellcode-delivery-mechanism-c807016ead2e
+
 ## **Usage**
 This repository includes three separate programs:  
 
