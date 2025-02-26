@@ -23,7 +23,7 @@ This repository includes three separate programs:
 1. Open ETWShellcodeLoader.sln in Visual Studio and build the projects.
 2. Run ETWShellcodeLoader.exe.
 
-**Note:** Make sure to replace "shellcode-hosting.com" and "/shellcode.txt" with your actual HTTP server and resource path.
+**Note:** Make sure to replace "shellcode-hosting.com" and "/shellcode.txt" with your actual HTTP server and resource path. "shellcode.txt" needs to be encrypted using RC4 and encoded using Base64.
 
 ## **Screenshot**
 ![Execution Example](images/Screenshot.png)
